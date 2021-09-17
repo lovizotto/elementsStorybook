@@ -1,0 +1,31 @@
+{
+  "name": "ElementsStorybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/html": "^6.3.8",
+    "@storybook/preset-scss": "^1.0.3",
+    "babel-loader": "^8.2.2",
+    "sass": "^1.41.1",
+    "storybook-addon-run-script": "^0.1.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "css-loader": "5.2.6",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "postcss-cli": "^8.3.1",
+    "sass-loader": "10.1.1",
+    "storybook-addon-package-json": "^2.0.0",
+    "style-loader": "2.0.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
